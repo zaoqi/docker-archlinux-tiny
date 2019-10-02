@@ -1,10 +1,9 @@
 ###########################################################
 # Dockerfile for custom Arch Linux base to be as small as possible
 #
-# Currently 119 MB
 ############################################################
 
-FROM dock0/arch
+FROM archlinux/base
 MAINTAINER Jonathan Yantis <yantis@yantis.net>
 
 ENV TERM xterm
